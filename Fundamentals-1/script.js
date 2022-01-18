@@ -14,3 +14,37 @@ let job2 = "teacher";
 
 let myFirstJob = "programmer";
 let my_current_job = "Teaccher";
+
+let javascript = true;
+console.log(javascript);
+
+console.log(typeof true);
+console.log(typeof javascript);
+console.log(typeof "jonas");
+//dynamic typing - changing type of variable
+javascript = 'YES!';
+console.log(javascript);
+
+let year;
+console.log(year);
+console.log(typeof year);
+//ans is Undefined
+
+console.log(typeof null);
+//ans is OBJECT
+
+//--------------let, const, var----------------
+//let can be changed in any point of program
+let age = 28;
+age =90;
+//reassigning variables;
+//Value in a const cannot be changes
+
+const birthyear = 1990;
+birthyear = 1991;
+//will give an error;
+const name; // this cannot be done using const;
+
+//--------Basic operators------
+//+,-,*,/ basic shit, not writing this code
+//comparision opertors shit.
