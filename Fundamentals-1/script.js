@@ -48,3 +48,24 @@ const name; // this cannot be done using const;
 //--------Basic operators------
 //+,-,*,/ basic shit, not writing this code
 //comparision opertors shit.
+//Strings and Template Literals
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthyear = 1991;
+const year = 2021
+
+const jonas = "I'm " + firstName + ',a ' + (year-birthyear) + ' old ' + job; 
+console.log(jonas);
+//template literals
+const jonasNew = `I'm $(firstname), a $(year-birthyear) year old, $(job)`;
+console.log(jonasNew);
+//--------------If/else-------------
+const age = 19;
+const isOldEnough  = age >=18;
+if (isOldEnough) {
+    console.log("yes")
+    
+}
+else{
+    console.log("no");
+}
