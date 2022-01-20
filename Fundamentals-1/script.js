@@ -69,3 +69,32 @@ if (isOldEnough) {
 else{
     console.log("no");
 }
+//------------TYPE CONVERSION AND COERCION----------
+//conversion
+const inputYear = '1991';
+console.log(Number(inputYear) + 18);//FIRST CONVERT TO NUMBER
+console.log(inputYear +18); //STRING
+
+console.log(Number('Jonad')) //NotANumber (NaN)
+
+console.log(String(23)); //Converts to string 
+//----------Truthy and Falsy values----------
+//5 Falsy values -> 0,''.undefined, null, NaN
+console.log(Boolean(0));//f
+console.log(Boolean(undefined));//f
+console.log(Boolean('Jonad'));//t
+console.log(Boolean({}));//t
+console.log(Boolean(""));//f
+console.log(Boolean(Nan));//f
+// Equalty operators == vs ===
+const age = 18;
+if (age === 18) {
+    console.log("YOu just became an adult");
+}
+//=== -> Comaprision
+// == -> Type Coercion //loose equality operator
+//'18' == 18 // t
+//but '18' === 18 //f
+const fav = prompt("whats your fav number?");
+//Booleaan logic shit || && !== not writing this code either
+
