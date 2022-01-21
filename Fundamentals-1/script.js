@@ -97,4 +97,19 @@ if (age === 18) {
 //but '18' === 18 //f
 const fav = prompt("whats your fav number?");
 //Booleaan logic shit || && !== not writing this code either
+//---------------switch statement------------
+const day = 'monday';
+switch (day) {
+    case 'monday':
+        console.log("Today is monday");
+        break;
+    case 'tuesday':
+        console.log('Today is tuesday');
+        break;
 
+    default:
+        break;
+}
+//-----------Ternery Operators-------------
+const age = 23;
+age >= 18 ? console.log("I like to drink wine") : console.log("I dont like to drink wine");
