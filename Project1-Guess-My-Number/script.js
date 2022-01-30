@@ -1,19 +1,12 @@
 'use strict';
 /*
-console.log(document.querySelector('.message').textContent);
+
 
 /*
 //DOM -> Document Object model
 Structured representation of html documents, allows javascript to access html Elements and styles to manipulate them.
 
-document.querySelector('.message').textContent = 'Correct Number ';
 
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 20;
-
-
-document.querySelector('.guess').value = 23;
-console.log(document.querySelector('.guess').value);
 */
 //handling clicks of a button
 
