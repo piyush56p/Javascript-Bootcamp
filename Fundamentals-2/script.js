@@ -1,4 +1,4 @@
-'use strict';
+
 //strct mode shows error and all
 let haslisc = false;
 let pass = true;
